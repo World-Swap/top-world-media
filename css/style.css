@@ -50,7 +50,9 @@ a { color: inherit; }
 .brand-mark { width: 46px; height: 46px; flex: none; }
 .mark-badge { fill: var(--badge); }
 .mark-globe { stroke: var(--navy); stroke-width: 2.2; fill: none; }
-.mark-play  { fill: var(--red); }
+.mark-land  { fill: var(--navy); }
+.mark-halo  { fill: var(--badge); stroke: var(--badge); stroke-width: 7; stroke-linejoin: round; }
+.mark-play  { fill: var(--red); stroke: var(--red); stroke-width: 3.5; stroke-linejoin: round; }
 
 /* ---------- topbar ---------- */
 
