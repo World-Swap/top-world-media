@@ -138,7 +138,7 @@ any of these accounts.*
 | Threads | [`threads.net/@topworldmedia`](https://www.threads.net/@topworldmedia) | Linked from Instagram. |
 | Facebook | [`facebook.com/100092203670692`](https://www.facebook.com/100092203670692) | **Renamed** to "Top World Media." 166 followers · 266 posts · Santa Cruz & Monterey County. Category: **"Sporting Goods Store" — wrong; change** to Media/Production Company. |
 | X / Twitter | [`x.com/TopWorldDG`](https://x.com/TopWorldDG) | Live — most visible content is still $WORLD Coin promotion (see §8). |
-| Old website | [`topworlddiscgolf.com`](https://topworlddiscgolf.com) | Still live, with `/twdg-tour-schedule` and `/tournament-video-coverage` indexed. |
+| Old website | `topworlddiscgolf.com` | **Business closed** (owner-confirmed) — but the site is still live and indexed with a stale tour schedule. Redirect or take down; see §9. |
 | New website | `topworldmedia.com` | Zero search presence. Render service (`top-world-media.onrender.com`) now deploys from `main`; domain not yet pointed. |
 | Disc Golf Scene | [`discgolfscene.com/club/13056/top-world-disc-golf`](https://www.discgolfscene.com/club/13056/top-world-disc-golf) | Club listing: "Top World Disc Golf (Santa Cruz, California)." |
 
@@ -159,12 +159,9 @@ The TWDG Tour has run PDGA-sanctioned C- through A-tier events at Kelley Park
 This is the strongest trust signal the brand owns and it appeared nowhere on
 the new site. It's now in the hero, story, and updates sections. Two follow-ups:
 
-- The **2026** Masters Cup listings credit DeLaveaga Disc Golf Club as host,
-  not TWDG — **verify** whether TWDG is still involved and word the site's
-  claim accordingly (it currently claims the 2025 edition only, which is safe).
-- `topworlddiscgolf.com`'s indexed tour-schedule content appears to still be
-  the 2025 schedule. If no 2026 TWDG Tour is planned, say so somewhere; a
-  visibly stale schedule page reads as "defunct."
+- The site claims the **2025** edition only (the 2026 Masters Cup is hosted
+  by DeLaveaga Disc Golf Club), which is accurate — TWDG is now closed, and
+  the hosting credential is presented as history, not an ongoing operation.
 
 ## 8. Brand-risk flag: the $WORLD Coin
 
@@ -185,19 +182,24 @@ rewrite the YouTube About text to lead with tournament coverage and production
 work (draft in the revival playbook). If the coin content was **not** posted
 by you, treat both accounts as compromised and rotate credentials immediately.
 
-## 9. Two-domain strategy
+## 9. Winding down topworlddiscgolf.com (business closed)
 
-`topworlddiscgolf.com` (indexed, has history) and `topworldmedia.com` (new,
-invisible) currently don't reference each other. Don't let them compete:
+Top World Disc Golf is a closed business (owner-confirmed Aug 2026), so the
+new site and all materials no longer link to it. But the old site is still
+live and indexed with a 2025 tour schedule — a storefront that looks open
+for a business that isn't. Wind it down deliberately:
 
-1. **Keep both, with jobs:** `topworlddiscgolf.com` = the tour (schedules,
-   registration links, results); `topworldmedia.com` = the production house
-   (portfolio, services, booking). Cross-link prominently in both directions —
-   the new site now links the tour site from its story section.
-2. Or **301-redirect** the disc golf domain's pages to sections of the new
-   site if you truly won't run events again (loses less SEO than letting it rot).
-
-Option 1 is recommended — the tour is proof-of-work for the production brand.
+1. **Best option — 301-redirect the whole domain to `topworldmedia.com`**
+   for as long as the domain registration lasts. It transfers the old
+   domain's search equity and back-links to the new brand, and anyone
+   following an old link (PDGA pages, Disc Golf Scene, old flyers) lands
+   somewhere current. Most hosts/registrars offer a domain-level redirect.
+2. If redirecting isn't practical, **take the site down** and submit its
+   URLs to Google's [Refresh Outdated Content tool](https://search.google.com/search-console/remove-outdated-content)
+   so stale schedule pages stop surfacing.
+3. Old **TWDG-named socials** (X `@TopWorldDG`, the Disc Golf Scene club
+   page): either close them or post a single pinned "we've become Top World
+   Media → topworldmedia.com" note. Don't leave them active-looking.
 
 ## 10. Revised priority list (supersedes §5)
 
@@ -207,8 +209,9 @@ Option 1 is recommended — the tour is proof-of-work for the production brand.
 2. **Deploy the new site + Search Console** — Render now deploys from `main`;
    point `topworldmedia.com` at it, then submit the sitemap. This is also
    what re-teaches search engines the renamed accounts (§6).
-3. **Cross-link everything:** site ↔ tour site ↔ YouTube ↔ TikTok ↔
-   Instagram ↔ Facebook. Done on the site side (`sameAs` + channel cards).
+3. **Cross-link the active properties:** site ↔ YouTube ↔ TikTok ↔
+   Instagram ↔ Facebook. Done on the site side (`sameAs` + channel cards);
+   the closed TWDG properties are excluded (see §9).
 4. ~~Claim TikTok~~ — it exists (`@topworldmedia.com`, 1,301 followers) and
    is your second-biggest audience. Fold it into the Shorts cross-posting
    loop as the *first* stop, not an afterthought.

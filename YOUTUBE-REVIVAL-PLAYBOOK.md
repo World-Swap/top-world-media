@@ -45,8 +45,7 @@ in this environment; full detail in `WEBSITE-SOCIAL-AUDIT.md`, Part 2):
    >
    > *New videos every week. For event coverage, brand video, or a content
    > engine for your channel:*
-   > *📩 hello@topworldmedia.com · 🌐 topworldmedia.com ·
-   > ⛳ Tour & events: topworlddiscgolf.com*
+   > *📩 hello@topworldmedia.com · 🌐 topworldmedia.com*
 
    **Stale-snippet cleanup:** after saving the new About, edit old video
    descriptions mentioning the coin (Studio → Content, search "coin" /
