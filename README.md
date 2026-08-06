@@ -22,7 +22,7 @@ sitemap.xml         Submit this in Google Search Console
 Social links point at the **owner-verified accounts** (Aug 6, 2026 audit —
 see `WEBSITE-SOCIAL-AUDIT.md`, Part 2): YouTube
 [`@Top-World-Media`](https://www.youtube.com/@Top-World-Media) (10.5K subs),
-TikTok [`@topworldmedia.com`](https://www.tiktok.com/@topworldmedia.com)
+TikTok [`@topworldmedia`](https://www.tiktok.com/@topworldmedia)
 (1.3K), Instagram [`@topworldmedia`](https://www.instagram.com/topworldmedia/),
 and the Top World Media Facebook page.
 

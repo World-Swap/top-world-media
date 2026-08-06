@@ -62,7 +62,7 @@ in this environment; full detail in `WEBSITE-SOCIAL-AUDIT.md`, Part 2):
    PDGA-sanctioned events at Kelley Park, DeLaveaga, and Boulder Creek. That
    belongs in the About text, the banner tagline, and the channel trailer.
 4. **Supporting socials are real and already renamed:** TikTok
-   [`@topworldmedia.com`](https://www.tiktok.com/@topworldmedia.com)
+   [`@topworldmedia`](https://www.tiktok.com/@topworldmedia)
    (**1,301 followers** — your second-biggest audience; make it the first
    stop for every Short), Instagram
    [`@topworldmedia`](https://www.instagram.com/topworldmedia/) (447

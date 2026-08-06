@@ -133,7 +133,7 @@ any of these accounts.*
 | Property | URL | Status (owner-verified) |
 |---|---|---|
 | YouTube | [`youtube.com/@Top-World-Media`](https://www.youtube.com/@Top-World-Media) (channel ID `UC_wa5cggx3IcCj_apJovh9w`) | **Renamed & active.** "Top World Media" · **10.5K subscribers · 878 videos** · links topworldmedia.com. Search engines still index it as "Top World Disc Golf." Recent uploads are surf clips getting 31–62 views (see §11). |
-| TikTok | [`tiktok.com/@topworldmedia.com`](https://www.tiktok.com/@topworldmedia.com) | **Live — biggest non-YouTube audience: 1,301 followers · 3,695 likes.** Bio links the site and the YouTube handle. Invisible to search engines (earlier "no account found" was wrong — search simply can't see it). |
+| TikTok | [`tiktok.com/@topworldmedia`](https://www.tiktok.com/@topworldmedia) | **Live — biggest non-YouTube audience: 1,301 followers · 3,695 likes.** Bio links the site and the YouTube handle. Invisible to search engines (earlier "no account found" was wrong — search simply can't see it). |
 | Instagram | [`instagram.com/topworldmedia`](https://www.instagram.com/topworldmedia/) | **Renamed** (formerly `@topworlddiscgolf`). 447 followers · 769 following · 225 posts · Threads linked · 549 profile views/30 days. Category: "Sports Event" — change to a media/production category. |
 | Threads | [`threads.net/@topworldmedia`](https://www.threads.net/@topworldmedia) | Linked from Instagram. |
 | Facebook | [`facebook.com/100092203670692`](https://www.facebook.com/100092203670692) | **Renamed** to "Top World Media." 166 followers · 266 posts · Santa Cruz & Monterey County. Category: **"Sporting Goods Store" — wrong; change** to Media/Production Company. |
@@ -212,7 +212,7 @@ for a business that isn't. Wind it down deliberately:
 3. **Cross-link the active properties:** site ↔ YouTube ↔ TikTok ↔
    Instagram ↔ Facebook. Done on the site side (`sameAs` + channel cards);
    the closed TWDG properties are excluded (see §9).
-4. ~~Claim TikTok~~ — it exists (`@topworldmedia.com`, 1,301 followers) and
+4. ~~Claim TikTok~~ — it exists (`@topworldmedia`, 1,301 followers) and
    is your second-biggest audience. Fold it into the Shorts cross-posting
    loop as the *first* stop, not an afterthought.
 5. **Fix platform categories:** Facebook is listed as "Sporting Goods Store"
