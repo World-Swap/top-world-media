@@ -1,9 +1,16 @@
-# Top World Media — Website & Social Media Audit (Initial Findings)
+# Top World Media — Website & Social Media Audit
 
-**Date:** August 6, 2026
+**Date:** August 6, 2026 (Part 2 added later the same day)
 **Scope requested:** Full review of topworldmedia.com and associated social media, with recommendations to "take things to the next level."
 
+> **Part 1** below is the initial framework written before any live data was
+> available. **Part 2 — Live Audit Findings** (further down) is the real audit:
+> the brand's actual public footprint as discovered via web search on
+> August 6, 2026. Where Part 1 guessed, Part 2 corrects it.
+
 ---
+
+# Part 1 — Initial findings & framework
 
 ## 1. What I could and couldn't inspect
 
@@ -24,6 +31,8 @@ code side either.
   to the site from any third party.
 - No social media accounts (Instagram, Facebook, TikTok, YouTube, X) could be
   matched to the "Top World Media" brand by search.
+  *(Superseded — the accounts exist under the **Top World Disc Golf** name;
+  see Part 2.)*
 
 If the site is live, this means one or more of the following:
 
@@ -104,5 +113,99 @@ Any one of these unblocks a full professional audit:
 
 ---
 
-*Next step: provide access per §3 and I'll turn this framework into a concrete,
-page-by-page and post-by-post action plan.*
+# Part 2 — Live Audit Findings (August 6, 2026)
+
+**How this was gathered:** this session's network policy still blocks direct
+fetches of external sites (topworldmedia.com, YouTube, Instagram all return
+proxy 403s), but web **search** works. Everything below comes from search
+results and indexed snippets — solid for identity, links, and public
+positioning; approximate for counts and dates. Items marked **verify** need a
+30-second check from a normal browser.
+
+## 6. The real public footprint (it exists — under the old name)
+
+| Property | URL | Status |
+|---|---|---|
+| YouTube | `youtube.com/channel/UC_wa5cggx3IcCj_apJovh9w` — "Top World Disc Golf" | **Live & indexed.** This channel-ID URL is the one search engines know. The `@top-world-media` handle did not surface in any search result — **verify** it resolves. |
+| Instagram | [`instagram.com/topworlddiscgolf`](https://www.instagram.com/topworlddiscgolf/) | **Live.** ~367 followers · 739 following · 128 posts. Bio: "Bringing you the best of the sport we all love." |
+| Facebook | [`facebook.com/people/Top-World-Disc-Golf/100092203670692`](https://www.facebook.com/people/Top-World-Disc-Golf/100092203670692/) | **Live.** |
+| X / Twitter | [`x.com/TopWorldDG`](https://x.com/TopWorldDG) | **Live** — but its most visible content is $WORLD Coin promotion (see §8). |
+| TikTok | — | **No account found.** The handle `@topworldmedia` appears unclaimed — claim it. |
+| Old website | [`topworlddiscgolf.com`](https://topworlddiscgolf.com) | **Still live**, with `/twdg-tour-schedule` and `/tournament-video-coverage` pages indexed. |
+| New website | `topworldmedia.com` | **Still zero search presence.** Unreachable from this environment; **verify** DNS/deploy status. |
+| Disc Golf Scene | [`discgolfscene.com/club/13056/top-world-disc-golf`](https://www.discgolfscene.com/club/13056/top-world-disc-golf) | Club listing: "Top World Disc Golf (Santa Cruz, California)." |
+
+**Consequence for the site build:** the previous version of `index.html`
+linked Instagram/TikTok at `@topworldmedia` — the Instagram link pointed at an
+account that isn't yours and the TikTok link pointed at nothing. Both are now
+fixed (real Instagram, TikTok card replaced with the real Facebook page).
+
+## 7. The buried headline: you hosted the Santa Cruz Masters Cup
+
+PDGA event listings confirm: **the 2025 Santa Cruz Masters Cup (MPO/FPO,
+DGPT Q-Series), sponsored by DGA, was hosted by Top World Disc Golf** as part
+of the 2025 Top World Disc Golf Tour, at DeLaveaga — one of the oldest and
+most storied events in the sport ([pdga.com/tour/event/86442](https://www.pdga.com/tour/event/86442)).
+The TWDG Tour has run PDGA-sanctioned C- through A-tier events at Kelley Park
+(San Jose), DeLaveaga (Santa Cruz), and Boulder Creek Golf & Country Club.
+
+This is the strongest trust signal the brand owns and it appeared nowhere on
+the new site. It's now in the hero, story, and updates sections. Two follow-ups:
+
+- The **2026** Masters Cup listings credit DeLaveaga Disc Golf Club as host,
+  not TWDG — **verify** whether TWDG is still involved and word the site's
+  claim accordingly (it currently claims the 2025 edition only, which is safe).
+- `topworlddiscgolf.com`'s indexed tour-schedule content appears to still be
+  the 2025 schedule. If no 2026 TWDG Tour is planned, say so somewhere; a
+  visibly stale schedule page reads as "defunct."
+
+## 8. Brand-risk flag: the $WORLD Coin
+
+The public face of two properties currently leads with a cryptocurrency:
+
+- The YouTube channel's search snippet reads "…promote the **Top WORLD Disc
+  Golf Coin on Coinbase Wallet**" — meaning the channel **About/description
+  text leads with the coin**, and that's what Google displays for your channel.
+- [`x.com/TopWorldDG`](https://x.com/TopWorldDG)'s visible pinned content is a
+  Feb 2025 $WORLD Coin token-contract announcement.
+
+No judgment on the venture itself — but as the front door of a media-production
+business it works against you: prospective clients, sponsors (DGA, MVP,
+Innova sponsor events at these courses), and the PDGA ecosystem will
+search the brand and see a memecoin before they see a single frame of video.
+Recommendation: move coin content to its own dedicated account/site, and
+rewrite the YouTube About text to lead with tournament coverage and production
+work (draft in the revival playbook). If the coin content was **not** posted
+by you, treat both accounts as compromised and rotate credentials immediately.
+
+## 9. Two-domain strategy
+
+`topworlddiscgolf.com` (indexed, has history) and `topworldmedia.com` (new,
+invisible) currently don't reference each other. Don't let them compete:
+
+1. **Keep both, with jobs:** `topworlddiscgolf.com` = the tour (schedules,
+   registration links, results); `topworldmedia.com` = the production house
+   (portfolio, services, booking). Cross-link prominently in both directions —
+   the new site now links the tour site from its story section.
+2. Or **301-redirect** the disc golf domain's pages to sections of the new
+   site if you truly won't run events again (loses less SEO than letting it rot).
+
+Option 1 is recommended — the tour is proof-of-work for the production brand.
+
+## 10. Revised priority list (supersedes §5)
+
+1. **Verify & fix YouTube packaging** — handle, About text, coin scrub (§8).
+   One hour of work, biggest single visibility win.
+2. **Deploy the new site + Search Console** (unchanged from Part 1 — still
+   zero pages indexed).
+3. **Cross-link everything:** site ↔ tour site ↔ YouTube ↔ Instagram ↔
+   Facebook. The `sameAs` structured data now lists the real accounts.
+4. **Claim TikTok** `@topworldmedia` (or `@topworlddiscgolf` to match
+   Instagram) before someone else does — even if you won't post yet.
+5. **Instagram decision:** 367 followers means no lock-in. Either keep
+   `@topworlddiscgolf` (audience-first, matches the channel) or rename to
+   `@topworldmedia` — but whichever name wins, use it consistently on the
+   site, and start cross-posting the YouTube Shorts there per the playbook.
+6. **Execute the dated 90-day calendar** now in `YOUTUBE-REVIVAL-PLAYBOOK.md`
+   (anchored to real events: PDGA Pro Worlds Aug 26–30, Faultline Classic at
+   DeLaveaga Sept 19–20, Odyssey Challenge Nov 14–15).

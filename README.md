@@ -17,15 +17,21 @@ sitemap.xml         Submit this in Google Search Console
 .github/workflows/  GitHub Pages deploy (runs on push to main)
 ```
 
-## Before launch — fill in the placeholders
+## Before launch — remaining placeholders
 
-Search for `TODO` in `index.html`:
+Social links now point at the **real accounts** found in the Aug 6, 2026 live
+audit (see `WEBSITE-SOCIAL-AUDIT.md`, Part 2): YouTube `@top-world-media`,
+Instagram [`@topworlddiscgolf`](https://www.instagram.com/topworlddiscgolf/),
+and the Top World Disc Golf Facebook page. No TikTok account exists yet —
+claim the handle, then add the card back.
 
-1. **Social handles** — YouTube is confirmed as
-   [`@top-world-media`](https://www.youtube.com/@top-world-media). TikTok and
-   Instagram channel-card URLs (and the `sameAs` list in the JSON-LD block in
-   `<head>`) are still set to the `@topworldmedia` placeholder.
-2. **Contact email** — currently `hello@topworldmedia.com`.
+Still to fill in:
+
+1. **Contact email** — currently `hello@topworldmedia.com` (see `TODO` in
+   `index.html`); confirm the mailbox exists before launch.
+2. **Verify** the `@top-world-media` YouTube handle resolves — search engines
+   only know the channel as
+   [`youtube.com/channel/UC_wa5cggx3IcCj_apJovh9w`](https://www.youtube.com/channel/UC_wa5cggx3IcCj_apJovh9w).
 
 ## Deploy
 

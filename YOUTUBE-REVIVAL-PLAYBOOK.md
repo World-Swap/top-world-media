@@ -10,6 +10,42 @@ The plan below is ordered — do it top to bottom.
 
 ---
 
+## Phase –1 — What the live audit found (August 6, 2026) — fix these first
+
+The channel and socials were audited via web search (direct access is blocked
+in this environment; full detail in `WEBSITE-SOCIAL-AUDIT.md`, Part 2):
+
+1. **The channel search engines know is
+   [`youtube.com/channel/UC_wa5cggx3IcCj_apJovh9w`](https://www.youtube.com/channel/UC_wa5cggx3IcCj_apJovh9w)
+   ("Top World Disc Golf").** The `@top-world-media` handle never surfaced in
+   search — confirm in YouTube Studio that the handle is actually set, and
+   keep the channel *name* recognizable to the disc golf audience either way.
+2. **Your Google snippet is a crypto ad.** The channel's About/description
+   currently leads with the "Top WORLD Disc Golf Coin on Coinbase Wallet," so
+   that is what appears when anyone searches the channel. Rewrite the About
+   text **today** — before any content work. Draft:
+   > *Tournament coverage, player interviews, and course tours from the home
+   > of the Top World Disc Golf Tour — host of the 2025 Santa Cruz Masters Cup
+   > (DGPT Q-Series) at DeLaveaga. Now expanding as Top World Media: full
+   > media production for events, brands, and athletes.
+   > Bookings: hello@topworldmedia.com · topworldmedia.com*
+   Move $WORLD Coin content to its own account/site; a memecoin in the About
+   text repels the sponsors and clients this revival is meant to attract.
+   (If you didn't post the coin content, treat the account as compromised and
+   rotate credentials now.)
+3. **Your biggest credential is missing from your own packaging:** PDGA
+   listings confirm TWDG **hosted the 2025 Santa Cruz Masters Cup** and runs
+   PDGA-sanctioned events at Kelley Park, DeLaveaga, and Boulder Creek. That
+   belongs in the About text, the banner tagline, and the channel trailer.
+4. **Supporting socials are thin but real:** Instagram
+   [`@topworlddiscgolf`](https://www.instagram.com/topworlddiscgolf/) (~367
+   followers, 128 posts), a Facebook page, X
+   [`@TopWorldDG`](https://x.com/TopWorldDG) (currently coin-focused), and
+   **no TikTok at all** — claim the handle this week. Instagram is small
+   enough that renaming it is free; pick one name and match the site.
+
+---
+
 ## Phase 0 — Diagnose before you post (Week 1, no filming)
 
 Open **YouTube Studio → Analytics** and answer these before making anything:
@@ -119,7 +155,52 @@ If retention misses → cut the first minute harder. One variable at a time.
 
 ---
 
-*Next step I can take for you: once your real handles are confirmed (and network
-access is enabled for this environment, or you paste your channel URL/stats),
-I can audit the actual channel — titles, thumbnails, upload history — and turn
-this playbook into a dated 90-day content calendar.*
+## The dated 90-day calendar (Aug 10 – Nov 8, 2026)
+
+Anchored to real events on the calendar. One long-form + three Shorts per
+week from Week 2 on; every long-form shoot feeds its own Shorts.
+
+**Week 1 · Aug 10–16 — Cleanup & diagnosis (no filming)**
+- Rewrite channel About (draft above); scrub/relocate coin content; confirm
+  the `@top-world-media` handle in Studio.
+- Run all of Phase 0 diagnostics; write down the baseline number.
+- Claim TikTok; settle the Instagram name.
+- Update banner + avatar to the site's navy/red system, tagline:
+  "Host of the Santa Cruz Masters Cup · Tournament coverage & production."
+
+**Week 2 · Aug 17–23 — Relaunch**
+- Publish the comeback video ("Where we went, what's coming") + community
+  poll the same day.
+- Rebuild playlists; add the standard description footer everywhere.
+- **Aug 26–30 is PDGA Pro Worlds (Milford, MI)** — the sport's biggest
+  search week of the year. Prep a Worlds-pegged long-form for Week 3
+  (preview, "who wins and why," or a DeLaveaga-lens story on a contender).
+
+**Week 3 · Aug 24–30 — Ride the Pro Worlds spike**
+- Publish the Worlds long-form early in the week; daily reaction Shorts
+  during the event with player names in titles.
+
+**Week 4 · Aug 31–Sep 6 — Worlds wrap + BTS pillar**
+- "What Worlds means for the West Coast season" or best-moments breakdown.
+- First production-BTS Short ("how we film a tournament").
+
+**Weeks 5–6 · Sep 7–20 — Home-course event**
+- **Sept 19–20: Faultline Classic (B-tier) at DeLaveaga** — your home turf.
+  Shoot on-site: course-condition tour before, coverage/recap after,
+  interviews with locals and TDs. This is the "we're back" proof video.
+
+**Weeks 7–8 · Sep 21–Oct 4 — Faultline payoff**
+- Faultline recap long-form + DeLaveaga course tour (evergreen search
+  content: "DeLaveaga disc golf" earns views year-round).
+- Interview pillar: one sit-down (player, TD, or course legend).
+
+**Weeks 9–12 · Oct 5–Nov 8 — Rotation + compounding**
+- Rotate pillars: Kelley Park / Boulder Creek course tours, one interview,
+  one BTS ("How we hosted the Masters Cup" is a natural flagship).
+- Tease coverage of the **Odyssey Challenge at DeLaveaga, Nov 14–15** (just
+  past day 90 — it's the Week-13 shoot).
+- **Nov 8: scoreboard review** against the 90-day targets above; adjust one
+  variable at a time per the rules in Phase 3.
+
+*All external dates sourced from PDGA/Disc Golf Scene listings via search —
+re-verify each before committing a shoot.*

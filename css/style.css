@@ -346,6 +346,13 @@ a { color: inherit; }
 
 .story-step p { color: var(--muted); font-size: 0.98rem; }
 .story-step strong { color: var(--text); }
+.story-step p a, .update p a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--red);
+  text-underline-offset: 3px;
+}
+.story-step p a:hover, .update p a:hover { color: var(--red); }
 
 /* ---------- services ---------- */
 
