@@ -122,23 +122,30 @@ results and indexed snippets — solid for identity, links, and public
 positioning; approximate for counts and dates. Items marked **verify** need a
 30-second check from a normal browser.
 
-## 6. The real public footprint (it exists — under the old name)
+## 6. The real public footprint
 
-| Property | URL | Status |
+*Verified from the owner's account screenshots, Aug 6, 2026 (evening). The
+search index still shows most accounts under the old "Top World Disc Golf"
+names — the renames to Top World Media are done but haven't been re-crawled,
+which is itself a finding: search engines don't yet connect the new brand to
+any of these accounts.*
+
+| Property | URL | Status (owner-verified) |
 |---|---|---|
-| YouTube | `youtube.com/channel/UC_wa5cggx3IcCj_apJovh9w` — "Top World Disc Golf" | **Live & indexed.** This channel-ID URL is the one search engines know. The `@top-world-media` handle did not surface in any search result — **verify** it resolves. |
-| Instagram | [`instagram.com/topworlddiscgolf`](https://www.instagram.com/topworlddiscgolf/) | **Live.** ~367 followers · 739 following · 128 posts. Bio: "Bringing you the best of the sport we all love." |
-| Facebook | [`facebook.com/people/Top-World-Disc-Golf/100092203670692`](https://www.facebook.com/people/Top-World-Disc-Golf/100092203670692/) | **Live.** |
-| X / Twitter | [`x.com/TopWorldDG`](https://x.com/TopWorldDG) | **Live** — but its most visible content is $WORLD Coin promotion (see §8). |
-| TikTok | — | **No account found.** The handle `@topworldmedia` appears unclaimed — claim it. |
-| Old website | [`topworlddiscgolf.com`](https://topworlddiscgolf.com) | **Still live**, with `/twdg-tour-schedule` and `/tournament-video-coverage` pages indexed. |
-| New website | `topworldmedia.com` | **Still zero search presence.** Unreachable from this environment; **verify** DNS/deploy status. |
+| YouTube | [`youtube.com/@Top-World-Media`](https://www.youtube.com/@Top-World-Media) (channel ID `UC_wa5cggx3IcCj_apJovh9w`) | **Renamed & active.** "Top World Media" · **10.5K subscribers · 878 videos** · links topworldmedia.com. Search engines still index it as "Top World Disc Golf." Recent uploads are surf clips getting 31–62 views (see §11). |
+| TikTok | [`tiktok.com/@topworldmedia.com`](https://www.tiktok.com/@topworldmedia.com) | **Live — biggest non-YouTube audience: 1,301 followers · 3,695 likes.** Bio links the site and the YouTube handle. Invisible to search engines (earlier "no account found" was wrong — search simply can't see it). |
+| Instagram | [`instagram.com/topworldmedia`](https://www.instagram.com/topworldmedia/) | **Renamed** (formerly `@topworlddiscgolf`). 447 followers · 769 following · 225 posts · Threads linked · 549 profile views/30 days. Category: "Sports Event" — change to a media/production category. |
+| Threads | [`threads.net/@topworldmedia`](https://www.threads.net/@topworldmedia) | Linked from Instagram. |
+| Facebook | [`facebook.com/100092203670692`](https://www.facebook.com/100092203670692) | **Renamed** to "Top World Media." 166 followers · 266 posts · Santa Cruz & Monterey County. Category: **"Sporting Goods Store" — wrong; change** to Media/Production Company. |
+| X / Twitter | [`x.com/TopWorldDG`](https://x.com/TopWorldDG) | Live — most visible content is still $WORLD Coin promotion (see §8). |
+| Old website | [`topworlddiscgolf.com`](https://topworlddiscgolf.com) | Still live, with `/twdg-tour-schedule` and `/tournament-video-coverage` indexed. |
+| New website | `topworldmedia.com` | Zero search presence. Render service (`top-world-media.onrender.com`) now deploys from `main`; domain not yet pointed. |
 | Disc Golf Scene | [`discgolfscene.com/club/13056/top-world-disc-golf`](https://www.discgolfscene.com/club/13056/top-world-disc-golf) | Club listing: "Top World Disc Golf (Santa Cruz, California)." |
 
-**Consequence for the site build:** the previous version of `index.html`
-linked Instagram/TikTok at `@topworldmedia` — the Instagram link pointed at an
-account that isn't yours and the TikTok link pointed at nothing. Both are now
-fixed (real Instagram, TikTok card replaced with the real Facebook page).
+The site's channel cards and `sameAs` structured data now list all of these
+(except X, pending §8). Getting topworldmedia.com live with those links, then
+requesting re-indexing, is what teaches search engines the new identity —
+right now a search for "Top World Media" finds none of your accounts.
 
 ## 7. The buried headline: you hosted the Santa Cruz Masters Cup
 
@@ -194,18 +201,34 @@ Option 1 is recommended — the tour is proof-of-work for the production brand.
 
 ## 10. Revised priority list (supersedes §5)
 
-1. **Verify & fix YouTube packaging** — handle, About text, coin scrub (§8).
-   One hour of work, biggest single visibility win.
-2. **Deploy the new site + Search Console** (unchanged from Part 1 — still
-   zero pages indexed).
-3. **Cross-link everything:** site ↔ tour site ↔ YouTube ↔ Instagram ↔
-   Facebook. The `sameAs` structured data now lists the real accounts.
-4. **Claim TikTok** `@topworldmedia` (or `@topworlddiscgolf` to match
-   Instagram) before someone else does — even if you won't post yet.
-5. **Instagram decision:** 367 followers means no lock-in. Either keep
-   `@topworlddiscgolf` (audience-first, matches the channel) or rename to
-   `@topworldmedia` — but whichever name wins, use it consistently on the
-   site, and start cross-posting the YouTube Shorts there per the playbook.
-6. **Execute the dated 90-day calendar** now in `YOUTUBE-REVIVAL-PLAYBOOK.md`
+1. **Fix YouTube packaging** — About text and coin scrub (§8), and repackage
+   the surf uploads (§11). One hour of work, biggest single visibility win.
+   ~~Verify handle~~ — done: `@Top-World-Media` confirmed.
+2. **Deploy the new site + Search Console** — Render now deploys from `main`;
+   point `topworldmedia.com` at it, then submit the sitemap. This is also
+   what re-teaches search engines the renamed accounts (§6).
+3. **Cross-link everything:** site ↔ tour site ↔ YouTube ↔ TikTok ↔
+   Instagram ↔ Facebook. Done on the site side (`sameAs` + channel cards).
+4. ~~Claim TikTok~~ — it exists (`@topworldmedia.com`, 1,301 followers) and
+   is your second-biggest audience. Fold it into the Shorts cross-posting
+   loop as the *first* stop, not an afterthought.
+5. **Fix platform categories:** Facebook is listed as "Sporting Goods Store"
+   and Instagram as "Sports Event" — both should be a media/video-production
+   category so profile search and recommendations work for the business.
+6. **Execute the dated 90-day calendar** in `YOUTUBE-REVIVAL-PLAYBOOK.md`
    (anchored to real events: PDGA Pro Worlds Aug 26–30, Faultline Classic at
    DeLaveaga Sept 19–20, Odyssey Challenge Nov 14–15).
+
+## 11. The views collapse, quantified (owner screenshots, §6)
+
+The channel is **not dormant** — it pivoted. The three most recent uploads
+(≈July 2026) are "Top World Surf Clips" (The Lane Parts One & Two, Nor-Cal),
+23-minute raw session cuts, earning **31, 40, and 62 views** on a channel
+with **10,500 subscribers** — roughly 0.3–0.6% of the subscriber base, with
+brand-first titles and no-text thumbnails. This is the "rebrand trap" the
+playbook warned about, measured: the audience subscribed for disc golf, the
+algorithm learned it, and surf uploads packaged as "Top World Surf Clips"
+give neither the subscribers nor search a reason to click. The playbook's
+Phase 1 now addresses this directly — surf can absolutely stay (it's Santa
+Cruz DNA and shows production range), but as a search-packaged secondary
+pillar, with the disc golf comeback leading the revival.

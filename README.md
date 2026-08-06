@@ -19,19 +19,24 @@ sitemap.xml         Submit this in Google Search Console
 
 ## Before launch — remaining placeholders
 
-Social links now point at the **real accounts** found in the Aug 6, 2026 live
-audit (see `WEBSITE-SOCIAL-AUDIT.md`, Part 2): YouTube `@top-world-media`,
-Instagram [`@topworlddiscgolf`](https://www.instagram.com/topworlddiscgolf/),
-and the Top World Disc Golf Facebook page. No TikTok account exists yet —
-claim the handle, then add the card back.
+Social links point at the **owner-verified accounts** (Aug 6, 2026 audit —
+see `WEBSITE-SOCIAL-AUDIT.md`, Part 2): YouTube
+[`@Top-World-Media`](https://www.youtube.com/@Top-World-Media) (10.5K subs),
+TikTok [`@topworldmedia.com`](https://www.tiktok.com/@topworldmedia.com)
+(1.3K), Instagram [`@topworldmedia`](https://www.instagram.com/topworldmedia/),
+and the Top World Media Facebook page.
 
 Still to fill in:
 
 1. **Contact email** — currently `hello@topworldmedia.com` (see `TODO` in
    `index.html`); confirm the mailbox exists before launch.
-2. **Verify** the `@top-world-media` YouTube handle resolves — search engines
-   only know the channel as
-   [`youtube.com/channel/UC_wa5cggx3IcCj_apJovh9w`](https://www.youtube.com/channel/UC_wa5cggx3IcCj_apJovh9w).
+
+## Hosting
+
+Deployed via **Render** (static site `top-world-media`, auto-deploys from
+`main` → https://top-world-media.onrender.com). Add `topworldmedia.com` under
+Render → Settings → Custom Domains and set the DNS records it shows. The
+GitHub Pages workflow in `.github/workflows/` is unused and can be removed.
 
 ## Deploy
 

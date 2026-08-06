@@ -1,8 +1,13 @@
 # YouTube Revival Playbook — Top World Media
 
-**Situation:** ~10,000 subscribers earned as **Top World Disc Golf** (highlights,
-player interviews, course tours, tournament coverage). Channel has gone quiet
-through the rebrand to Top World Media. Goal: revive it.
+**Situation (updated with owner-verified data, Aug 6, 2026):**
+[`@Top-World-Media`](https://www.youtube.com/@Top-World-Media) —
+**10.5K subscribers, 878 videos**, earned as **Top World Disc Golf**
+(highlights, player interviews, course tours, tournament coverage; host of
+the 2025 Santa Cruz Masters Cup). The channel is renamed and still uploading —
+but the recent "Top World Surf Clips" videos are getting **31–62 views** on a
+10.5K-sub channel. The problem isn't silence; it's that the audience and the
+algorithm haven't been given a reason to follow the pivot. Goal: revive reach.
 
 Those 10K subscribers are the single most valuable marketing asset you own.
 They subscribed for a reason, and YouTube still remembers who they are.
@@ -15,11 +20,12 @@ The plan below is ordered — do it top to bottom.
 The channel and socials were audited via web search (direct access is blocked
 in this environment; full detail in `WEBSITE-SOCIAL-AUDIT.md`, Part 2):
 
-1. **The channel search engines know is
-   [`youtube.com/channel/UC_wa5cggx3IcCj_apJovh9w`](https://www.youtube.com/channel/UC_wa5cggx3IcCj_apJovh9w)
-   ("Top World Disc Golf").** The `@top-world-media` handle never surfaced in
-   search — confirm in YouTube Studio that the handle is actually set, and
-   keep the channel *name* recognizable to the disc golf audience either way.
+1. **The rename is done — but search engines don't know yet.** The channel is
+   "Top World Media" / `@Top-World-Media` (confirmed), yet Google still
+   indexes it as "Top World Disc Golf" at the channel-ID URL, and a search
+   for "Top World Media" finds none of your accounts. The fix is downstream:
+   deploy topworldmedia.com with the `sameAs` links and request indexing —
+   the site becomes the hub that teaches search the new identity.
 2. **Your Google snippet is a crypto ad.** The channel's About/description
    currently leads with the "Top WORLD Disc Golf Coin on Coinbase Wallet," so
    that is what appears when anyone searches the channel. Rewrite the About
@@ -37,12 +43,27 @@ in this environment; full detail in `WEBSITE-SOCIAL-AUDIT.md`, Part 2):
    listings confirm TWDG **hosted the 2025 Santa Cruz Masters Cup** and runs
    PDGA-sanctioned events at Kelley Park, DeLaveaga, and Boulder Creek. That
    belongs in the About text, the banner tagline, and the channel trailer.
-4. **Supporting socials are thin but real:** Instagram
-   [`@topworlddiscgolf`](https://www.instagram.com/topworlddiscgolf/) (~367
-   followers, 128 posts), a Facebook page, X
-   [`@TopWorldDG`](https://x.com/TopWorldDG) (currently coin-focused), and
-   **no TikTok at all** — claim the handle this week. Instagram is small
-   enough that renaming it is free; pick one name and match the site.
+4. **Supporting socials are real and already renamed:** TikTok
+   [`@topworldmedia.com`](https://www.tiktok.com/@topworldmedia.com)
+   (**1,301 followers** — your second-biggest audience; make it the first
+   stop for every Short), Instagram
+   [`@topworldmedia`](https://www.instagram.com/topworldmedia/) (447
+   followers, 225 posts, Threads attached), Facebook "Top World Media" (166
+   followers), X [`@TopWorldDG`](https://x.com/TopWorldDG) (still
+   coin-focused). Housekeeping: fix the platform categories — Facebook says
+   "Sporting Goods Store," Instagram says "Sports Event"; both should be
+   media/video production.
+5. **The views collapse is measurable and fixable.** Last three uploads
+   (July 2026): "Top World Surf Clips — The Lane Part Two" 62 views ·
+   "Part One" 31 views · "Nor-Cal" 40 views. Twenty-three-minute raw
+   session cuts, brand-first titles, no-text thumbnails, posted to an
+   audience that subscribed for disc golf. Keep the surf pillar — it's
+   Santa Cruz DNA — but package it for *search*, where its audience
+   actually is: "Surfing The Lane on a 6ft January swell — Santa Cruz"
+   beats "Top World Surf Clips - The Lane : Part Two." Retitle those three
+   videos today (free, takes ten minutes), cut each into 2–3 Shorts, and
+   let the disc golf comeback video — not surf — be what re-activates the
+   10.5K.
 
 ---
 
@@ -64,8 +85,13 @@ Open **YouTube Studio → Analytics** and answer these before making anything:
 
 **Do not scrub the disc golf identity off the channel.** Your subscribers and
 your algorithmic authority are both disc-golf-shaped. A channel that suddenly
-posts generic "media production" content to a disc golf audience will see CTR
-collapse, YouTube will stop recommending, and the 10K becomes dead weight.
+posts off-pillar content to a disc golf audience sees CTR collapse, YouTube
+stops recommending, and the 10K becomes dead weight.
+
+**This is no longer a prediction — it's the last three uploads.** The surf
+clips at 31–62 views on 10.5K subscribers are exactly this mechanism firing.
+The escape is the same as it ever was: lead the revival with disc golf, and
+run surf as a search-packaged pillar (below) instead of a subscriber-feed one.
 
 The play that works:
 
@@ -112,6 +138,7 @@ Content pillars (rotate weekly):
 | Player interviews | 15–20 min sit-down | The single spiciest answer, 45s |
 | Course tours | Full walkthrough | "This hole is unfair" clip |
 | Production BTS | How we filmed X | Gear-in-bag, before/after edit |
+| Surf (search-first) | Spot + conditions in title ("The Lane, 6ft January swell") | Best wave, wipeout, lineup timelapse |
 
 **Packaging rules (this is where dormant channels lose):**
 
@@ -161,10 +188,12 @@ Anchored to real events on the calendar. One long-form + three Shorts per
 week from Week 2 on; every long-form shoot feeds its own Shorts.
 
 **Week 1 · Aug 10–16 — Cleanup & diagnosis (no filming)**
-- Rewrite channel About (draft above); scrub/relocate coin content; confirm
-  the `@top-world-media` handle in Studio.
+- Rewrite channel About (draft above); scrub/relocate coin content.
+- Retitle the three surf uploads for search (spot + conditions + place) and
+  cut each into 2–3 Shorts → TikTok first, then Reels.
 - Run all of Phase 0 diagnostics; write down the baseline number.
-- Claim TikTok; settle the Instagram name.
+- Fix Facebook/Instagram business categories (media production, not
+  "Sporting Goods Store" / "Sports Event").
 - Update banner + avatar to the site's navy/red system, tagline:
   "Host of the Santa Cruz Masters Cup · Tournament coverage & production."
 
