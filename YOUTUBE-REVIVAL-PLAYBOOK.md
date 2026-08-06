@@ -26,10 +26,12 @@ in this environment; full detail in `WEBSITE-SOCIAL-AUDIT.md`, Part 2):
    for "Top World Media" finds none of your accounts. The fix is downstream:
    deploy topworldmedia.com with the `sameAs` links and request indexing —
    the site becomes the hub that teaches search the new identity.
-2. **Your Google snippet is a crypto ad.** The channel's About/description
-   currently leads with the "Top WORLD Disc Golf Coin on Coinbase Wallet," so
-   that is what appears when anyone searches the channel. Rewrite the About
-   text **today** — before any content work. Draft:
+2. **The channel About text is four words: "Now Top World Media."**
+   (Verified live Aug 6 after network access opened — the coin promo Google
+   still shows in search snippets is stale cache and/or video-level content,
+   including a recent "SMG Payments" crypto-gateway video description.) An
+   empty About means zero search keywords, zero credentials, zero links.
+   Rewrite it **today** — before any content work. Draft:
    > *Tournament coverage, player interviews, and course tours from the home
    > of the Top World Disc Golf Tour — host of the 2025 Santa Cruz Masters Cup
    > (DGPT Q-Series) at DeLaveaga. Now expanding as Top World Media: full
@@ -53,17 +55,36 @@ in this environment; full detail in `WEBSITE-SOCIAL-AUDIT.md`, Part 2):
    coin-focused). Housekeeping: fix the platform categories — Facebook says
    "Sporting Goods Store," Instagram says "Sports Event"; both should be
    media/video production.
-5. **The views collapse is measurable and fixable.** Last three uploads
-   (July 2026): "Top World Surf Clips — The Lane Part Two" 62 views ·
-   "Part One" 31 views · "Nor-Cal" 40 views. Twenty-three-minute raw
-   session cuts, brand-first titles, no-text thumbnails, posted to an
-   audience that subscribed for disc golf. Keep the surf pillar — it's
-   Santa Cruz DNA — but package it for *search*, where its audience
-   actually is: "Surfing The Lane on a 6ft January swell — Santa Cruz"
-   beats "Top World Surf Clips - The Lane : Part Two." Retitle those three
-   videos today (free, takes ten minutes), cut each into 2–3 Shorts, and
-   let the disc golf comeback video — not surf — be what re-activates the
-   10.5K.
+5. **The views collapse is measurable — and the full upload history
+   (pulled live from the channel, Aug 6) shows why.** The last ~3 months,
+   newest first:
+
+   | When | Content | Views |
+   |---|---|---|
+   | 1 mo ago | Surf clips ×3 (The Lane Pts 1–2, Nor-Cal — 23-min raw cuts) | 31–62 |
+   | 1 mo ago | RC rock crawling ×2 | 72 each |
+   | 1 mo ago | Photography slideshow | 17 |
+   | 2 mo ago | Onewheel / harbor-cruise vlogs ×2 | 29–43 |
+   | 3 mo ago | Sport-history explainers ×3 (archery, golf, skateboarding) | **107–513** |
+   | 3 mo ago | Pinto Lake disc golf hole previews ×18 | 1–20 (tour flyover: 60) |
+
+   That's **six unrelated verticals in ninety days**. The algorithm cannot
+   learn who the channel is for, so it shows uploads to almost no one — and
+   the 18 near-identical all-caps hole previews buried the feed. Three
+   lessons hiding in this data:
+   - The **history explainers are the only breakouts** (513 / 218 / 107) —
+     they're the only uploads packaged around a *topic* strangers search
+     for. Proof that packaging, not the subscriber count, is the bottleneck.
+   - The hole previews aren't evidence disc golf is dead — utility clips
+     titled "PINTO LAKE HOLE 16 PREVIEW" were never going to travel. One
+     packaged course tour ("Pinto Lake's redesign, hole by hole") would
+     outperform all 18.
+   - Pick **two pillars max** for the next 90 days (disc golf + one other;
+     surf is the natural second), package everything for search, and put
+     the rest on other channels or the cutting-room floor. Retitle the
+     three surf videos today ("Surfing The Lane, Santa Cruz — 6ft day"
+     beats "Top World Surf Clips : Part Two"), cut each into 2–3 Shorts,
+     and let the disc golf comeback video be what re-activates the 10.5K.
 
 ---
 
