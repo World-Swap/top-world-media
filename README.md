@@ -21,9 +21,10 @@ sitemap.xml         Submit this in Google Search Console
 
 Search for `TODO` in `index.html`:
 
-1. **Social handles** — three channel-card URLs plus the `sameAs` list in the
-   JSON-LD block in `<head>`. Currently set to `@topworldmedia` on YouTube,
-   TikTok, and Instagram.
+1. **Social handles** — YouTube is confirmed as
+   [`@top-world-media`](https://www.youtube.com/@top-world-media). TikTok and
+   Instagram channel-card URLs (and the `sameAs` list in the JSON-LD block in
+   `<head>`) are still set to the `@topworldmedia` placeholder.
 2. **Contact email** — currently `hello@topworldmedia.com`.
 
 ## Deploy
