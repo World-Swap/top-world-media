@@ -31,12 +31,29 @@ in this environment; full detail in `WEBSITE-SOCIAL-AUDIT.md`, Part 2):
    still shows in search snippets is stale cache and/or video-level content,
    including a recent "SMG Payments" crypto-gateway video description.) An
    empty About means zero search keywords, zero credentials, zero links.
-   Rewrite it **today** — before any content work. Draft:
-   > *Tournament coverage, player interviews, and course tours from the home
-   > of the Top World Disc Golf Tour — host of the 2025 Santa Cruz Masters Cup
-   > (DGPT Q-Series) at DeLaveaga. Now expanding as Top World Media: full
-   > media production for events, brands, and athletes.
-   > Bookings: hello@topworldmedia.com · topworldmedia.com*
+   Rewrite it **today** — before any content work. Final version (first
+   sentence is the Google snippet — it carries the keywords):
+   > *Top World Media is a Santa Cruz–based media production studio —
+   > tournament coverage, athlete interviews, and stories from the sports
+   > we love.*
+   >
+   > *We built our name as Top World Disc Golf: PDGA-sanctioned events
+   > across the Bay Area, and host of the 2025 Santa Cruz Masters Cup
+   > (DGPT Q-Series) at the legendary DeLaveaga course. Disc golf is still
+   > at our core — now alongside Santa Cruz surf, course tours, and
+   > behind-the-scenes production work.*
+   >
+   > *New videos every week. For event coverage, brand video, or a content
+   > engine for your channel:*
+   > *📩 hello@topworldmedia.com · 🌐 topworldmedia.com ·
+   > ⛳ Tour & events: topworlddiscgolf.com*
+
+   **Stale-snippet cleanup:** after saving the new About, edit old video
+   descriptions mentioning the coin (Studio → Content, search "coin" /
+   "Coinbase" / "$WORLD" / "SMG"), then submit the channel URLs to Google's
+   [Refresh Outdated Content tool](https://search.google.com/search-console/remove-outdated-content).
+   The Search Console ↔ YouTube association doesn't control snippets — the
+   refresh tool is the lever.
    Move $WORLD Coin content to its own account/site; a memecoin in the About
    text repels the sponsors and clients this revival is meant to attract.
    (If you didn't post the coin content, treat the account as compromised and
